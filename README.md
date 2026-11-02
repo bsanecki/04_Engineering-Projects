@@ -35,9 +35,15 @@ Three 2D schematics compare different ways of supplying space heating and domest
 
 <table>
   <tr>
-    <td width="33%"><img src="./01_AutoCAD_Residential_HVAC_Systems_Project/Previews/01_Panasonic_Aquarea_Split_R32_Underfloor_Heating.png" alt="Panasonic Aquarea split heat pump schematic" width="100%"></td>
-    <td width="33%"><img src="./01_AutoCAD_Residential_HVAC_Systems_Project/Previews/02_Air_to_Water_Monobloc_Underfloor_Heating.png" alt="Air-to-water monobloc heat pump schematic" width="100%"></td>
-    <td width="33%"><img src="./01_AutoCAD_Residential_HVAC_Systems_Project/Previews/03_Gas_Condensing_Boiler_Underfloor_Heating.png" alt="Gas condensing boiler schematic" width="100%"></td>
+    <td width="33%">
+      <img src="./01_AutoCAD_Residential_HVAC_Systems_Project/Previews/01_Panasonic_Aquarea_Split_R32_Underfloor_Heating.png" alt="Panasonic Aquarea split heat pump schematic" width="100%">
+    </td>
+    <td width="33%">
+      <img src="./01_AutoCAD_Residential_HVAC_Systems_Project/Previews/02_Air_to_Water_Monobloc_Underfloor_Heating.png" alt="Air-to-water monobloc heat pump schematic" width="100%">
+    </td>
+    <td width="33%">
+      <img src="./01_AutoCAD_Residential_HVAC_Systems_Project/Previews/03_Gas_Condensing_Boiler_Underfloor_Heating.dwg.png" alt="Gas condensing boiler schematic" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center">Split heat pump</td>
@@ -69,15 +75,23 @@ The project covers:
 
 <table>
   <tr>
-    <td width="50%"><img src="./02_Municipal_Waste_Management_Project/Previews/Sankey.png" alt="Municipal waste flow Sankey diagram" width="100%"></td>
-    <td width="50%"><img src="./02_Municipal_Waste_Management_Project/Previews/Landfill_Forecast.png" alt="Landfill basin and forecast drawing" width="100%"></td>
+    <td width="50%">
+      <img src="./02_Municipal_Waste_Management_Project/Previews/Sankey.png" alt="Municipal waste flow Sankey diagram" width="100%">
+    </td>
+    <td width="50%">
+      <img src="./02_Municipal_Waste_Management_Project/Previews/Landfill_Forecast.png" alt="Landfill forecast" width="100%">
+    </td>
   </tr>
   <tr>
     <td align="center">Waste-flow Sankey diagram</td>
-    <td align="center">Landfill forecast drawing</td>
+    <td align="center">Landfill forecast</td>
   </tr>
   <tr>
-    <td colspan="2"><p align="center"><img src="./02_Municipal_Waste_Management_Project/Previews/Reactor.png.png" alt="Aerobic stabilization reactor CAD drawing" width="55%"></p></td>
+    <td colspan="2">
+      <p align="center">
+        <img src="./02_Municipal_Waste_Management_Project/Previews/Reactor.png.png" alt="Aerobic stabilization reactor CAD drawing" width="55%">
+      </p>
+    </td>
   </tr>
   <tr>
     <td colspan="2" align="center">Aerobic stabilization reactor drawing</td>

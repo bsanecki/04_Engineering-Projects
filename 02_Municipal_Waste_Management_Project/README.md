@@ -45,7 +45,7 @@ Mass-flow diagram of the municipal waste stream: material fractions (plastics, g
 Section and plan views of the aerobic stabilization reactor (drawing: [`Drawings/Reactor.dwg`](Drawings/Reactor.dwg)).
 
 <p align="center">
-  <img src="Previews/Reactor.png" alt="Aerobic stabilization reactor – CAD preview" width="50%">
+  <img src="Previews/Reactor.png.png" alt="Aerobic stabilization reactor – CAD preview" width="50%">
 </p>
 
 ### Landfill basin / site layout
@@ -53,7 +53,7 @@ Section and plan views of the aerobic stabilization reactor (drawing: [`Drawings
 Plan view of the landfill basin with embankments, cells, the green belt around the site, and the service area on the right (drawing: [`Drawings/Landfill_Basin.dwg`](Drawings/Landfill_Basin.dwg)).
 
 <p align="center">
-  <img src="Previews/Landfill_Basin.png" alt="Landfill basin layout – CAD preview" width="65%">
+  <img src="Previews/Landfill_Forecast.png" alt="Landfill basin layout – CAD preview" width="65%">
 </p>
 
 ## Repository structure
@@ -67,8 +67,8 @@ Plan view of the landfill basin with embankments, cells, the green belt around t
 │   └── Landfill_Basin.dwg         # landfill basin
 ├── Previews/
 │   ├── Sankey.png                 # waste-flow Sankey diagram
-│   ├── Reactor.png                # reactor CAD preview
-│   └── Landfill_Basin.png         # landfill basin CAD preview
+│   ├── Reactor.png.png            # reactor CAD preview
+│   └── Landfill_Forecast.png      # landfill basin CAD preview
 └── Source_Files/
     ├── tab.1.xlsx                 # waste generation
     ├── tab. 2.xlsx                # waste composition

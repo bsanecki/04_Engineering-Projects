@@ -1,6 +1,6 @@
 # Engineering Projects
 
-A portfolio of engineering projects, most of which were completed during my university studies. The work covers **building services (HVAC)**, **renewable energy simulation**, and **municipal waste management**. It combines 2D CAD drafting in AutoCAD, simulation in specialized engineering software, spreadsheet-based calculations, and technical reporting.
+A portfolio of engineering projects, most of which were completed during my university studies. The work covers **building services (HVAC)**, **renewable energy systems**, **environmental engineering**, and **climatological data analysis**. It combines 2D CAD drafting in AutoCAD, specialized engineering simulations, spreadsheet-based calculations, meteorological data processing, and technical reporting.
 
 > **Background:** Most projects were originally completed as coursework during my engineering studies. Some were later extended or reorganized for portfolio presentation.
 >
@@ -16,6 +16,8 @@ A portfolio of engineering projects, most of which were completed during my univ
 | 02 | [Municipal Waste Management and Landfill Engineering](./02_Municipal_Waste_Management_Project/) | Environmental engineering | Excel, AutoCAD | 2 DWG drawings, 3 XLSX workbooks, Sankey diagram, technical report |
 | 03 | [GeoT*SOL Heat Pump System Design](./03_GeoTSOL_Heat_Pump_System_Design/) | Heat pumps / energy simulation | GeoT*SOL 2025 R1 | 4 simulation reports (PDF) |
 | 04 | [PV*SOL Photovoltaic System Design](./04_PVSOL_Photovoltaic_System_Design/) | Photovoltaics / energy simulation | PV*SOL 2025 | 4 simulation reports (PDF) |
+| 05 | [T*SOL Solar Thermal System - Kindergarten](./05_TSOL_Kindergarten_Solar_Thermal_System/) | Solar thermal energy / DHW | T*SOL 2025 R1 | 2 simulation reports (PDF) |
+| 06 | [Kętrzyn Climate Data Analysis](./06_Ketrzyn_Climate_Data_Analysis/) | Climatology / meteorological data analysis | Excel, Python, Matplotlib | 2 XLSX source files, 4 charts, technical report |
 
 ---
 
@@ -65,7 +67,7 @@ The project covers:
 - Waste generation and composition analysis.
 - A waste-flow **Sankey diagram**, covering selective collection, sorting, stabilization, compost, and landfilled fractions.
 - Preliminary sizing of **aerobic stabilization reactors**: approximately **7,394.67 Mg/year** of material to stabilize and an estimated configuration of **8 reactors**, each with a volume of approximately **234 m³**.
-- A **15-year landfill forecast** covering 2026-2041, with preliminary capacity and area analysis.
+- Landfill forecasting for 2026-2041, with preliminary capacity and area analysis.
 - Wind-rose and green-belt review.
 - 2D CAD drawings of the **reactor** and **landfill basin**.
 
@@ -115,7 +117,7 @@ A comparative simulation study of residential **air-to-water heat pump systems**
 
 **Work performed:** configuration of heat pumps and hot-water storage, definition of space-heating and DHW demand, annual energy simulation, review of photovoltaic contribution, and comparison of system performance and environmental indicators.
 
-**Result comparison:** the Rzeszów scenarios show slightly higher SPF values than the corresponding Olsztyn scenarios in these simulations. This describes the specific modeled configurations and should not be treated as a general conclusion about the two locations.
+**Outcome:** four comparable simulation scenarios showing annual energy demand, heat pump performance, electricity consumption and selected environmental indicators.
 
 ### Simulation reports
 
@@ -130,7 +132,7 @@ A comparative simulation study of residential **air-to-water heat pump systems**
 
 ## 04 - PV*SOL Photovoltaic System Design
 
-A comparative design and simulation study of grid-connected residential photovoltaic systems created in **PV*SOL 2025**. Four scenarios cover the same two household sizes (2+2 and 2+4) and locations (Olsztyn and Rzeszów).
+A comparative design and simulation study of grid-connected residential photovoltaic systems created in **PV*SOL 2025**. Four scenarios cover two household sizes (2+2 and 2+4) and two Polish locations (Olsztyn and Rzeszów).
 
 | Scenario | PV capacity | Annual production | Self-consumed energy | Exported energy | CO₂ avoided |
 |---|---:|---:|---:|---:|---:|
@@ -154,6 +156,99 @@ A comparative design and simulation study of grid-connected residential photovol
 
 ---
 
+## 05 - T*SOL Solar Thermal System Design - Kindergarten
+
+A comparative simulation study of a **solar thermal system for domestic hot water (DHW)** in a kindergarten, created using **T*SOL 2025 R1**. Two scenarios compare system performance using climate data for Olsztyn and Rzeszów.
+
+### Project scenarios
+
+| Scenario | Location | Collector area | Installed collector power |
+|---|---|---:|---:|
+| 01 | Olsztyn | 100.5 m² | 48.86 kW |
+| 02 | Rzeszów | 100.5 m² | 48.86 kW |
+
+### Simulation results
+
+| Scenario | Solar energy supplied to DHW | Solar coverage | CO₂ reduction | System efficiency |
+|---|---:|---:|---:|---:|
+| Olsztyn | 46,091.50 kWh/year | 48.0% | 9,490.58 kg/year | 41.6% |
+| Rzeszów | 49,625.42 kWh/year | 55.6% | 10,205.44 kg/year | 42.9% |
+
+**Work performed:** configuration of solar thermal collectors, definition of collector area and orientation, hot-water storage configuration, auxiliary boiler setup, annual solar energy simulation, and comparison of energy coverage and environmental indicators.
+
+**System components:** 10 Viessmann Vitosol 200-F Typ XL10 collectors, a 7.5 m³ DHW storage tank, and a Viessmann Vitoradial 300-T auxiliary boiler rated at 313 kW.
+
+### Simulation reports
+
+- [Kindergarten - Olsztyn (PDF)](./05_TSOL_Kindergarten_Solar_Thermal_System/TSOL%20-%20Przedszkole%20-%20Olsztyn.PDF)
+- [Kindergarten - Rzeszów (PDF)](./05_TSOL_Kindergarten_Solar_Thermal_System/TSOL%20-%20Przedszkole%20-%20Rzesz%C3%B3w.pdf)
+
+[Open project folder](./05_TSOL_Kindergarten_Solar_Thermal_System/)
+
+---
+
+## 06 - Kętrzyn Climate Data Analysis (1981-2024)
+
+An exploratory climatological study based on historical meteorological observations from the **Kętrzyn weather station in Poland**. The project uses daily and synoptic datasets covering different periods between 1981 and 2024.
+
+The analysis focuses on selected weather parameters, seasonal variability and historical patterns in air temperature, wind speed and wind direction.
+
+### Scope of analysis
+
+- Annual and monthly mean air temperature.
+- Seasonal temperature variability.
+- Monthly mean wind speed.
+- Wind direction and frequency distribution.
+- Review of historical meteorological observations.
+- Data organization, filtering and quality assessment.
+- Preparation of statistical visualizations.
+
+### Selected climate visualizations
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./06_Ketrzyn_Climate_Data_Analysis/Charts/01_Annual_Mean_Temperature_1981-2014.png" alt="Annual mean air temperature in Kętrzyn, 1981-2014" width="100%">
+      <p align="center">Annual mean temperature (1981-2014)</p>
+    </td>
+    <td width="50%">
+      <img src="./06_Ketrzyn_Climate_Data_Analysis/Charts/02_Monthly_Temperature_Climatology_1981-2014.png" alt="Monthly temperature climatology in Kętrzyn" width="100%">
+      <p align="center">Monthly temperature profile</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./06_Ketrzyn_Climate_Data_Analysis/Charts/03_Monthly_Mean_Wind_Speed.png" alt="Monthly mean wind speed in Kętrzyn" width="100%">
+      <p align="center">Monthly mean wind speed</p>
+    </td>
+    <td width="50%">
+      <img src="./06_Ketrzyn_Climate_Data_Analysis/Charts/04_Wind_Rose_1981-2023.png" alt="Wind rose for Kętrzyn, 1981-2023" width="100%">
+      <p align="center">Wind rose (1981-2023)</p>
+    </td>
+  </tr>
+</table>
+
+### Main observations
+
+The available temperature series shows year-to-year variability, with generally higher annual temperature levels in parts of the later analyzed period. The monthly profile confirms the seasonal temperature cycle, with the warmest conditions in July and August and the coldest in January and February.
+
+The monthly wind speed profile shows relatively moderate seasonal variation. The wind rose illustrates the frequency of different wind directions and speed classes, with noticeable contributions from northern and western sectors.
+
+**Outcome:** a set of climatological visualizations and a technical report based on historical meteorological observations, including data preparation, quality review and interpretation of selected weather patterns.
+
+### Data and files
+
+- `Source_Data/KETRZYN_DOBOWE_SD.xlsx` - daily meteorological observations.
+- `Source_Data/KETRZYN_DOBOWE_SDT.xlsx` - supplementary daily observations.
+- `Charts/` - four meteorological visualizations.
+- `Report.md` - technical report describing the methodology, observations and limitations.
+
+The large original synoptic workbook used for the wind analysis is not included in the repository due to its file size. The resulting wind visualizations are included.
+
+[Open project folder](./06_Ketrzyn_Climate_Data_Analysis/) · [Read climate analysis report](./06_Ketrzyn_Climate_Data_Analysis/Report.md)
+
+---
+
 ## Skills and tools demonstrated
 
 ### CAD and technical drawing
@@ -166,8 +261,9 @@ A comparative design and simulation study of grid-connected residential photovol
 
 - **GeoT*SOL 2025 R1:** heat pump system configuration and annual performance simulation.
 - **PV*SOL 2025:** PV system configuration, module and inverter selection, yield simulation, and financial analysis.
-- Interpretation of SPF, PV production, self-consumption, self-sufficiency, grid exports, IRR, and estimated CO₂ avoidance.
-- Comparison of scenarios using different locations and household assumptions.
+- **T*SOL 2025 R1:** solar thermal collector configuration, DHW system simulation and solar energy contribution analysis.
+- Interpretation of SPF, solar coverage, PV production, self-consumption, grid exports, IRR, and estimated CO₂ reductions.
+- Comparison of modeled scenarios using different locations and system assumptions.
 
 ### Environmental and waste engineering
 
@@ -177,12 +273,21 @@ A comparative design and simulation study of grid-connected residential photovol
 - Landfill forecasting, capacity and area estimation.
 - Wind-rose review and green-belt planning.
 
+### Climatology and meteorological data analysis
+
+- Processing and inspection of historical meteorological datasets.
+- Daily and monthly temperature aggregation.
+- Wind speed and direction analysis.
+- Preparation of temperature charts and wind roses.
+- Data-quality review and identification of incomplete or inconsistent observations.
+
 ### Data, calculations, and documentation
 
 - **Excel:** engineering calculations, forecasting, data organization, and result summaries.
+- **Python:** data processing and chart generation.
+- **Matplotlib:** meteorological data visualization.
 - Technical reporting in Markdown.
-- Data-quality review and transparent documentation of source-data limitations.
-- Clear statements of project scope, assumptions, and limitations.
+- Transparent documentation of source-data limitations, assumptions and modeling constraints.
 
 ---
 
@@ -194,33 +299,51 @@ A comparative design and simulation study of grid-connected residential photovol
 │   ├── Drawings/        # 3 DWG schematics
 │   ├── Previews/        # PNG previews
 │   └── README.md
+│
 ├── 02_Municipal_Waste_Management_Project/
 │   ├── Drawings/        # Reactor and landfill basin (DWG)
 │   ├── Diagrams/        # Waste-flow diagram
 │   ├── Previews/        # PNG previews
-│   ├── Source_Files/    # XLSX calculation workbooks
-│   ├── Report.md        # Technical report and data-quality review
+│   ├── Source_Files/    # 3 XLSX workbooks
+│   ├── Report.md
 │   └── README.md
+│
 ├── 03_GeoTSOL_Heat_Pump_System_Design/
 │   ├── 4 simulation reports (PDF)
 │   └── README.md
+│
 ├── 04_PVSOL_Photovoltaic_System_Design/
 │   ├── 4 simulation reports (PDF)
 │   └── README.md
+│
+├── 05_TSOL_Kindergarten_Solar_Thermal_System/
+│   ├── 2 simulation reports (PDF)
+│   └── README.md
+│
+├── 06_Ketrzyn_Climate_Data_Analysis/
+│   ├── Charts/          # 4 climate charts
+│   ├── Source_Data/     # 2 XLSX workbooks
+│   ├── Report.md
+│   └── README.md
+│
 └── README.md
 ```
 
 ## Notes and limitations
 
 - All projects are educational and portfolio studies, not verified commercial designs or construction documentation.
-- GeoT*SOL and PV*SOL results are software simulation outputs based on the assumptions documented in the individual reports. Actual system performance may differ from modeled results.
+- GeoT*SOL, PV*SOL and T*SOL results are software simulation outputs based on the assumptions documented in the individual reports. Actual system performance may differ from modeled results.
 - The GeoT*SOL reports use the term *geothermal system* in their titles, but the simulated heat source is **ambient air** and the modeled equipment is an **air-to-water heat pump**.
-- The 2+4 GeoT*SOL reports use an electricity load profile labelled **1-person household** for the PV-related household load. The 2+4 PV*SOL reports also use a **1-person household** electricity profile. This input limitation should be considered when interpreting the electricity self-consumption and self-sufficiency results.
-- The PV*SOL reports were generated using the non-commercial edition of the software.
-- Personal names, addresses, company details, and other identifying information shown in the reports are fictional and were created for demonstration purposes.
+- The 2+4 GeoT*SOL reports use an electricity load profile labelled **1-person household** for the PV-related household load. The 2+4 PV*SOL reports also use a **1-person household** electricity profile.
+- The T*SOL reports use a domestic hot water demand profile labelled as a **multifamily residential building**, rather than a kindergarten. The specified daily water consumption also differs between the Olsztyn and Rzeszów scenarios. These input limitations should be considered when comparing the results.
+- The PV*SOL and T*SOL reports were generated using non-commercial editions of the software.
+- The Kętrzyn climate analysis is exploratory. The annual temperature visualization is limited to 1981-2014 due to source-data inconsistencies. The wind rose covers 1981-2023, while the monthly wind speed chart uses available synoptic observations.
+- The original large synoptic workbook used for wind analysis is not included in the repository due to its size.
+- Personal names, addresses, company details, and other identifying information shown in the simulation reports are fictional and were created for demonstration purposes.
 - Known source-data inconsistencies and modeling limitations are documented in the relevant project reports or notes.
 
 ---
 
-**Focus areas:** HVAC · Renewable Energy · Environmental Engineering · AutoCAD  
-**Portfolio:** 4 projects · 5 DWG drawings · 8 simulation reports (PDF) · 3 XLSX workbooks
+**Focus areas:** HVAC · Renewable Energy · Solar Thermal · Environmental Engineering · Climatology · AutoCAD
+
+**Portfolio:** 6 projects · 5 DWG drawings · 10 simulation reports (PDF) · 5 XLSX workbooks · 4 climate charts

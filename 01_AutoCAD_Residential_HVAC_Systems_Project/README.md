@@ -52,7 +52,7 @@ The project compares three approaches to supplying space heating and domestic ho
 
 **Concept:** Gas-fired heating system with an indirect DHW storage cylinder.
 
-![Gas condensing boiler schematic](Previews/03_Gas_Condensing_Boiler_Underfloor_Heating.png)
+![Gas condensing boiler schematic](Previews/03_Gas_Condensing_Boiler_Underfloor_Heating.dwg.png)
 
 **Main equipment and features**
 - Gas condensing boiler
